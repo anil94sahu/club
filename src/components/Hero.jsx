@@ -7,6 +7,7 @@ import Heart from "../assets/heart.png";
 import Calories from "../assets/calories.png";
 import { motion } from "framer-motion";
 import NumberCounter from "number-counter";
+import Payment from "./Payment/Payment";
 
 const Hero = () => {
   const transition = { type: "spring", duration: 3 };
@@ -84,7 +85,10 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
-        <button className="btn">Join Now</button>
+        <button className="btn">
+          <Payment />
+        </button>
+
         <motion.div
           transition={{ ...transition }}
           initial={{ right: "-1rem" }}
