@@ -31,3 +31,22 @@
     justify-items: center;
     left: 40rem;
 }
+
+.text-white{
+    color: white;
+   
+}
+.text-white > li {
+    list-style-type: none;
+   
+}
+
+.text-white > li > a{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.text-white > li > span {
+    display: block;
+}
